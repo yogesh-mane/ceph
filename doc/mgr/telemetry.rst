@@ -45,8 +45,9 @@ the per-channel setting has no effect.)
 
     - cluster description
     - contact email address
-
+    
 * **perf** (default: off): Aggregated performance counter metrics of a cluster, which can be used to
+
     - reveal overall cluster health
     - identify workload patterns
     - troubleshoot issues with latency, throttling, memory management, etc.
