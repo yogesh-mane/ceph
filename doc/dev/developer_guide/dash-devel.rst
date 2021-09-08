@@ -388,7 +388,11 @@ you might need to run ``npm ci`` with the ``--unsafe-perm`` flag.
 You might need to install additional packages to be able to run Cypress.
 Please run ``npx cypress verify`` to verify it.
 
-run-frontend-e2e-tests.sh
+run-
+n
+
+
+-tests.sh
 .........................
 
 Our ``run-frontend-e2e-tests.sh`` script is the go to solution when you wish to
@@ -396,8 +400,9 @@ do a full scale e2e run.
 It will verify if everything needed is installed, start a new vstart cluster
 and run the full test suite.
 
-Start all frontend E2E tests by running::
+Start all frontend E2E tests with::
 
+  $ cd src/pybind/mgr/dashboard
   $ ./run-frontend-e2e-tests.sh
 
 Report:
